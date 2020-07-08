@@ -1,0 +1,13 @@
+
+[Unit]
+Description=pushbutton
+After=network.target
+
+[Service]
+#user=root
+Type=simple
+ExecStart= /home/pi/downloads/pbutton/./pushbuttons > /dev/null 2>&1 &
+
+[Install]
+WantedBy=multi-user.target
+
