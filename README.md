@@ -8,3 +8,5 @@ https://github.com/orangepi-xunlong/wiringOP
 gcc -lwiringPi -lwiringPiDev -o pushbuttons pushbuttons.c
 
 3. use external pull up resistor (4.7k-10k)
+
+4. Source : https://forum.armbian.com/topic/7067-orange-pi-pc-how-to-use-gpio-for-push-buttons-tutorial/ 
